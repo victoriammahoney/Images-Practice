@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9C1E448F2790C31900E43FE1 /* Images Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Images Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1E448F2790C31900E43FE1 /* Shopping List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1E44922790C31900E43FE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C1E44942790C31900E43FE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9C1E44962790C31900E43FE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		9C1E44902790C31900E43FE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C1E448F2790C31900E43FE1 /* Images Practice.app */,
+				9C1E448F2790C31900E43FE1 /* Shopping List.app */,
 				9C1E44A52790C31B00E43FE1 /* Images PracticeTests.xctest */,
 				9C1E44AF2790C31B00E43FE1 /* Images PracticeUITests.xctest */,
 			);
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C1E448E2790C31900E43FE1 /* Images Practice */ = {
+		9C1E448E2790C31900E43FE1 /* Shopping List */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C1E44B92790C31B00E43FE1 /* Build configuration list for PBXNativeTarget "Images Practice" */;
+			buildConfigurationList = 9C1E44B92790C31B00E43FE1 /* Build configuration list for PBXNativeTarget "Shopping List" */;
 			buildPhases = (
 				9C1E448B2790C31900E43FE1 /* Sources */,
 				9C1E448C2790C31900E43FE1 /* Frameworks */,
@@ -142,9 +142,9 @@
 			);
 			dependencies = (
 			);
-			name = "Images Practice";
+			name = "Shopping List";
 			productName = "Images Practice";
-			productReference = 9C1E448F2790C31900E43FE1 /* Images Practice.app */;
+			productReference = 9C1E448F2790C31900E43FE1 /* Shopping List.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9C1E44A42790C31B00E43FE1 /* Images PracticeTests */ = {
@@ -219,7 +219,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C1E448E2790C31900E43FE1 /* Images Practice */,
+				9C1E448E2790C31900E43FE1 /* Shopping List */,
 				9C1E44A42790C31B00E43FE1 /* Images PracticeTests */,
 				9C1E44AE2790C31B00E43FE1 /* Images PracticeUITests */,
 			);
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		9C1E44A72790C31B00E43FE1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9C1E448E2790C31900E43FE1 /* Images Practice */;
+			target = 9C1E448E2790C31900E43FE1 /* Shopping List */;
 			targetProxy = 9C1E44A62790C31B00E43FE1 /* PBXContainerItemProxy */;
 		};
 		9C1E44B12790C31B00E43FE1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9C1E448E2790C31900E43FE1 /* Images Practice */;
+			target = 9C1E448E2790C31900E43FE1 /* Shopping List */;
 			targetProxy = 9C1E44B02790C31B00E43FE1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,6 +441,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Images Practice/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = UIImageViewDemo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -468,6 +469,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Images Practice/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = UIImageViewDemo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -570,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C1E44B92790C31B00E43FE1 /* Build configuration list for PBXNativeTarget "Images Practice" */ = {
+		9C1E44B92790C31B00E43FE1 /* Build configuration list for PBXNativeTarget "Shopping List" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C1E44BA2790C31B00E43FE1 /* Debug */,
